@@ -11,10 +11,12 @@
   border-radius: 14px;
   margin-right: 17px;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #999;
   border-radius: 14px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #777;
   border-radius: 14px;
@@ -34,6 +36,7 @@
   margin: 0 auto;
   padding: 4px;
 }
+
 .oppa-info {
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
@@ -68,6 +71,23 @@
   color: blue;
 }
 
+.oppa {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.oppa:hover {
+  color: blue;
+}
+
 .pop-up {
   transition: all 1s linear;
   display: none;
@@ -78,6 +98,7 @@
   height: 100vh;
   background: rgba(0, 0, 0, 0.8);
 }
+
 .pop-up-close {
   position: absolute;
   top: 15px;
@@ -89,6 +110,7 @@
   z-index: 2;
   cursor: pointer;
 }
+
 .pop-up .grid {
   width: 80%;
   height: 90%;
@@ -100,11 +122,13 @@
   padding: 10px;
   border-radius: 15px;
 }
+
 .grid-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* height: 325px; */
 }
+
 .grid-row .content {
   margin: 5px;
   /* margin so the border doesnt stick to the image */
@@ -116,12 +140,14 @@
   align-self: center;
   /* Align the div to center vertically */
 }
+
 .image {
   overflow: hidden;
   border-radius: 15px;
   /* its the image class which will need border radius */
   /* it will be the main div shown */
 }
+
 .image img {
   width: 100%;
   height: auto;
