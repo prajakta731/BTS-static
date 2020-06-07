@@ -129,6 +129,7 @@
   /* height: 325px; */
 }
 
+
 .grid-row .content {
   margin: 5px;
   /* margin so the border doesnt stick to the image */
@@ -152,4 +153,18 @@
   width: 100%;
   height: auto;
   /* border-radius: 15px; */
+}
+
+
+@media only screen and (min-width: 0) and (max-width: 1000px) {
+
+.grid-row {
+  display: flex;
+flex-direction: column;
+  /* height: 325px; */
+}
+body {
+font-size: 4rem;
+}
+
 }
