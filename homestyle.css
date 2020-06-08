@@ -153,10 +153,11 @@ body {
 
 @media only screen and (max-width: 1000px) {
   .grid-row {
-    display: flex;
-    -moz-flex-direction: column;
-    -webkit-flex-direction: column;
-    flex-direction: column;
+    display: grid;
+    /* -moz-flex-direction: column; */
+    /* -webkit-flex-direction: column; */
+    /* flex-direction: column; */
+    grid-template-columns: 1fr;
   }
 }
 
