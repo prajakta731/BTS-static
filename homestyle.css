@@ -106,8 +106,6 @@ body {
   }
 }
 
-
-
 .pop-up {
   transition: all 1s linear;
   display: none;
@@ -138,6 +136,8 @@ body {
   margin: 10px auto;
   overflow: scroll;
   display: flex;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
   flex-direction: column;
   padding: 10px;
   border-radius: 15px;
@@ -145,6 +145,8 @@ body {
 
 .grid-row {
   display: grid;
+  -moz-grid-template-columns: 1fr 1fr;
+  -webkit-grid-template-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   /* height: 325px; */
 }
@@ -152,6 +154,8 @@ body {
 @media only screen and (max-width: 1000px) {
   .grid-row {
     display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
     flex-direction: column;
   }
 }
